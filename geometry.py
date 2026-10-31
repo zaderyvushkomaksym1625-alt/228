@@ -3,6 +3,6 @@ def calculate_rectangle(width, height):
         return None
     
     area = width * height
-    perimeter = (width * height) * 2
+    perimeter = (width + height) * 2
     
     return {"area": area, "perimeter": perimeter}
